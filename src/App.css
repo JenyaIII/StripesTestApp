@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background: #fff;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.checkoutForm {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkoutObject {
+  max-width: 800px;
+  transition: 0.4s;
+  margin-bottom: 30px;
+}
+
+.payThis {
+  background-color: #0071e3;
+    border: transparent;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.payThis:hover {
+  background: #0077ED;
 }

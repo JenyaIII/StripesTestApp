@@ -1,8 +1,10 @@
 {
-  "name": "stripes",
+  "name": "stripesProject",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.4.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -46,7 +48,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^6.6.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-jest-enzyme": "^6.0.2",
     "eslint-plugin-babel": "^5.3.0",
